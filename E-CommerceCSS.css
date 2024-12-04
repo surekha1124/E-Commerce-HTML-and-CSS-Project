@@ -1,0 +1,147 @@
+div,hr{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+nav,h5,h2,h1{
+    font-family:sans-serif;
+    font-weight: bold;
+}
+.header{
+    display: flex;
+    justify-content: left;
+}
+nav{
+    font-size: 15px;
+    align-content: center;
+}
+a{
+   text-decoration: none; 
+   color: black;
+   padding-left: 50px;
+}
+.searchbox{
+    height: 30px;
+    border: solid 1px lightgrey;
+    border-right: none;
+    color: gray;
+}
+.search{
+    width: 30px;
+    height: 34px;
+    padding-right: 10px;
+    border: solid 1px lightgrey;
+    border-left: none;
+    background-image: url("./Images/search.png");
+    background-repeat: no-repeat;
+    background-color: white;
+    margin-right: 10px;
+}
+#iconcart{
+    margin-left: 10px;
+}
+.banner{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.bflex1,.bflex2,#footer1,.footer2i,.footer2ii,.footer2iii,.footer2iv{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.bflex1{
+   padding-right: 15px; 
+}
+.bflex2{
+    padding-left: 30px;
+}
+h5,p{
+    color: grey;
+}
+h2{
+    font-size: 30px;
+}
+h1{
+    font-size: 45px;
+    color: darkcyan;
+}
+.button{
+    color: white;
+    background-color: darkcyan;
+    width: 130px;
+    height: 50px;
+    border-radius: 5px;
+    border:solid 2px darkcyan;
+}
+.button:hover, a:hover{
+    background-color: white;
+    color: darkcyan;
+}
+#footer1{
+    background-color: lightblue;
+    height: 100px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+#iconemail{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#inputtext{
+    height: 25px;
+    border: solid 1px white;
+    padding-right: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: grey;
+    background-color: white;
+}
+#inputbutton{
+    height: 28px;
+    background-color: black;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#paraleft{
+    float: left;
+}
+#pararight{
+    float: right;
+}
+hr{
+    border: 1px solid rgb(230, 227, 227);
+}
+#paraleft,#pararight{
+    color: grey;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+#footer2{
+    display: flex;
+    justify-content: left; 
+    padding-bottom: 20px;   
+}
+.footer2i,.footer2ii,.footer2iii{
+    padding-right: 90px;
+}
+span,h4{
+    color: black;
+    font-weight: bold;
+}
+#footer2ipara{
+    color: grey;
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 2;
+}
+.footer2ii,.footer2iii,.footer2iv{
+    font-family: sans-serif;
+    line-height: 2.2;
+    font-size: 13px;
+    color: lightblack;
+}
