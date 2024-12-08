@@ -44,7 +44,7 @@ a{
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.bflex1,.bflex2,#footer1,.footer2i,.footer2ii,.footer2iii,.footer2iv,.footer,.cat-img{
+.bflex1,.bflex2,#footer1,.footer2i,.footer2ii,.footer2iii,.footer2iv,.footer,.cat-img,.heading,.accountpage,.accountleft,.accountright,.section1,.section2head,.section2{
     margin-left: 0px;
     margin-right: 0px;
 }
@@ -132,6 +132,71 @@ figcaption{
     align-items: center;
     align-content: center; 
     color: darkcyan;
+}
+#buttonsthree{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.buttonsthree{
+    width:100px;
+    height: 40px;
+    border: 0px;
+    font-family: sans-serif;
+    border-radius: 5px;
+}
+.buttonsthree:hover{
+    color:darkcyan;
+    background-color: antiquewhite;
+}
+.heading{
+    height: 50px;
+    background-color: rgb(238, 237, 237);
+    text-indent: 100px;
+    word-spacing: 15px;
+    align-content: center;
+    margin-bottom: 50px;
+}
+.section1{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(238, 237, 237);
+    width: 300px;
+    height: 50px;
+    text-indent: 8px;
+    align-items: center;
+    font-family: sans-serif;
+}
+.section1 img{
+    padding-left: 30px;
+}
+.section1:hover{
+    color: white;
+    background-color: darkcyan;    
+}
+.section2head,.section2{
+    border: 1px solid rgb(238, 237, 237);
+    width: 750px;
+    font-family: sans-serif;
+}
+.section2head{
+    height: 50px;
+    background-color: rgb(238, 237, 237);
+    text-indent: 15px;
+    align-content: center;
+    font-weight: bold;
+}
+.section2{
+    text-indent: 25px;
+    font-size:14px;
+    color: rgb(97, 96, 96);
+    line-height: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.accountpage{
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 25% auto;
 }
 #footer1{
     background-color: lightblue;
