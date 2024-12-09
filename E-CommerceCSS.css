@@ -71,6 +71,7 @@ h1{
     border-radius: 5px;
     border:solid 2px darkcyan;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 .button:hover, a:hover,.pcbutton:hover{
     background-color: white;
@@ -82,8 +83,8 @@ h1{
     font-size: x-large;
     font-family: sans-serif;
 }
-strong{
-    color: darkcyan;
+strong,.stock,.NColor{
+    color: rgb(2, 112, 112);
 }
 .popularC{
     height: 300px;
@@ -156,6 +157,7 @@ figcaption{
     align-content: center;
     margin-bottom: 50px;
     font-family: sans-serif;
+    font-size: 14px;
 }
 .section1{
     display: flex;
@@ -221,6 +223,57 @@ figcaption{
     margin-bottom: 10px;
     border-radius: 10px;
     text-indent: 10px;
+}
+.compare{
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+table{
+    border: solid rgb(238, 237, 237);
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid rgb(238, 237, 237);
+}
+th{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: grey;
+    font-family: sans-serif;
+    font-size: small;
+}
+td{
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 10px;
+    padding-bottom:10px;
+    font-size: large;
+    color: rgb(94, 93, 93);
+}
+.NColor{
+    font-weight: bold;
+}
+.bcolors1,.bcolors2,.bcolors3{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border: 0;
+}
+.bcolors1{
+    background-color: rgb(92, 92, 5);
+}
+.bcolors2{
+    background-color: rgb(5, 22, 121);
+}
+.bcolors3{
+    background-color: rgb(150, 5, 5);
+}
+.compareimg{
+    width: 330px;
+    height: 300px;
+    display: block;
+    justify-content: space-evenly;
+    margin: 5px;
 }
 #footer1{
     background-color: lightblue;
