@@ -44,8 +44,7 @@ a{
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.bflex1,.bflex2,#footer1,.footer2i,.footer2ii,.footer2iii,.footer2iv,.footer,.cat-img,.heading,.accountpage,.accountleft,.accountright,.section1,.section2head,.section2{
-    margin-left: 0px;
+.bflex1,.bflex2,#footer1,.footer2i,.footer2ii,.footer2iii,.footer2iv,.footer,.cat-img,.heading,.accountpage,.accountleft,.accountright,.section1,.section2head,.section2,.login,.register{   margin-left: 0px;
     margin-right: 0px;
 }
 .bflex1{
@@ -71,6 +70,7 @@ h1{
     height: 50px;
     border-radius: 5px;
     border:solid 2px darkcyan;
+    margin-top: 10px;
 }
 .button:hover, a:hover,.pcbutton:hover{
     background-color: white;
@@ -155,6 +155,7 @@ figcaption{
     word-spacing: 15px;
     align-content: center;
     margin-bottom: 50px;
+    font-family: sans-serif;
 }
 .section1{
     display: flex;
@@ -197,6 +198,29 @@ figcaption{
     margin-bottom: 50px;
     display: grid;
     grid-template-columns: 25% auto;
+}
+#login{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.login,.register{
+    border: 1px solid rgb(238, 237, 237);
+    margin-right: 20px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    padding: 30px;
+}
+.inputlogin{
+    color:  rgb(97, 96, 96);
+    border: 1px solid rgb(238, 237, 237);
+    width: 450px;
+    height:40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-indent: 10px;
 }
 #footer1{
     background-color: lightblue;
