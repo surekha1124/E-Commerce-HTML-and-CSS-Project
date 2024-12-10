@@ -44,7 +44,8 @@ a{
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.bflex1,.bflex2,#footer1,.footer2i,.footer2ii,.footer2iii,.footer2iv,.footer,.cat-img,.heading,.accountpage,.accountleft,.accountright,.section1,.section2head,.section2,.login,.register{   margin-left: 0px;
+.bflex1,.bflex2,#footer1,.footer2i,.footer2ii,.footer2iii,.footer2iv,.footer,.cat-img,.heading,.accountpage,.accountleft,.accountright,.section1,.section2head,.section2,.login,.register,.arrival-img{   
+    margin-left: 0px;
     margin-right: 0px;
 }
 .bflex1{
@@ -88,6 +89,12 @@ strong,.stock,.NColor{
 }
 .popularC{
     height: 300px;
+}
+.newarrivals{
+    height: 400px;
+    padding-bottom: 30px;
+}
+.popularC,.newarrivals{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -96,8 +103,15 @@ strong,.stock,.NColor{
     margin-bottom: 30px;
 }
 .cat-img{
-    width: 185px;
-    height: 270px;
+    width: 190px;
+    /* height: 270px; */
+    height: auto;
+}
+.arrival-img{
+    width: 245px;
+    height: auto;
+}
+.cat-img,.arrival-img{
     border: 2px solid lightgrey;
     border-radius: 20px;
     justify-content: flex-start;
@@ -114,7 +128,12 @@ figure{
     height: 100%;
     display: block;
 }
-.category{
+.arrival-img img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.category, .arrival{
     border-radius: 20px;
 }
 figcaption{
@@ -125,7 +144,26 @@ figcaption{
     font-weight: bold;
     font-size: small;
 }
-.pcbutton{
+.arrival-img figcaption{
+    text-align: left;
+    padding: 10px;
+    line-height: 33px;
+}
+figcaption b{
+    color: black;
+    font-size: 16px;
+}
+figcaption strong{
+    font-size: large;
+}
+figcaption input{
+    background-image: url("./Images/icon-cart.svg");
+    background-repeat: no-repeat;
+    background-size: 40px 20px;
+    text-indent: 30px;
+    float: inline-end;
+}
+.pcbutton,#cartbutton{
     height: 20px;
     width: 20x; 
     border: 1px solid rgb(121, 120, 120);
@@ -133,6 +171,10 @@ figcaption{
     align-items: center;
     align-content: center; 
     color: darkcyan;
+}
+#cartbutton{
+    width: 40px;
+    height: 40px;
 }
 #buttonsthree{
     padding-top: 30px;
