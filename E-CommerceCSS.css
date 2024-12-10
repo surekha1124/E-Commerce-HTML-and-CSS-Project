@@ -44,7 +44,7 @@ a{
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.bflex1,.bflex2,#footer1,.footer2i,.footer2ii,.footer2iii,.footer2iv,.footer,.cat-img,.heading,.accountpage,.accountleft,.accountright,.section1,.section2head,.section2,.login,.register,.arrival-img{   
+.bflex1,.bflex2,#footer1,.footer2i,.footer2ii,.footer2iii,.footer2iv,.footer,.cat-img,.heading,.accountpage,.accountleft,.accountright,.section1,.section2head,.section2,.login,.register,.arrival-img,.shop-img{   
     margin-left: 0px;
     margin-right: 0px;
 }
@@ -102,6 +102,12 @@ strong,.stock,.NColor{
     margin-top: 30px;
     margin-bottom: 30px;
 }
+.shop{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-bottom: 30px;
+    gap: 20px;
+}
 .cat-img{
     width: 190px;
     /* height: 270px; */
@@ -111,7 +117,11 @@ strong,.stock,.NColor{
     width: 245px;
     height: auto;
 }
-.cat-img,.arrival-img{
+.shop-img{
+    width: auto;
+    height: auto;
+}
+.cat-img,.arrival-img,.shop-img{
     border: 2px solid lightgrey;
     border-radius: 20px;
     justify-content: flex-start;
@@ -133,6 +143,11 @@ figure{
     height: 100%;
     display: block;
 }
+.shop-img img{
+    width: 100%;
+    /* height: 100%; */
+    display: block;
+}
 .category, .arrival{
     border-radius: 20px;
 }
@@ -144,7 +159,7 @@ figcaption{
     font-weight: bold;
     font-size: small;
 }
-.arrival-img figcaption{
+.arrival-img figcaption,.shop-img figcaption{
     text-align: left;
     padding: 10px;
     line-height: 33px;
@@ -163,6 +178,32 @@ figcaption input{
     text-indent: 30px;
     float: inline-end;
 }
+/*button{
+    border: 0px;
+    width: 30px;
+    height: 15px;
+    border-radius: 20px;
+    font-size: x-small;
+    text-align: center;
+    align-content: center;
+    font-family: sans-serif;
+    color: white;
+    position: relative;
+    top: 23px;
+    left: 8px;
+}
+#hot1{
+    background-color: lightcoral;
+}
+#hot2{
+    background-color: lightpink;
+}
+#hot3{
+    background-color: lightgreen;
+}
+#hot4{
+    background-color: lightseagreen;
+}*/
 .pcbutton,#cartbutton{
     height: 20px;
     width: 20x; 
