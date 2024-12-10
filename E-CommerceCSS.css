@@ -85,7 +85,7 @@ h1{
     font-family: sans-serif;
 }
 strong,.stock,.NColor{
-    color: rgb(2, 112, 112);
+    color: rgb(16, 138, 138);
 }
 .popularC{
     height: 300px;
@@ -357,6 +357,29 @@ td{
     display: block;
     justify-content: space-evenly;
     margin: 5px;
+}
+#shopLine{
+    padding-bottom: 50px;
+    font-size: larger;
+    font-family: sans-serif;
+    color: rgb(136, 134, 134);
+}
+#shopLineB{
+    word-spacing: 10px;
+    font-family: sans-serif;
+    text-align: center;
+    align-content: center;
+    font-weight: bolder;
+    color:cadetblue;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+button{
+    height: 30px;
+    color: white;
+    background-color: darkcyan;
+    border: 0px;
+    border-radius: 3px;
 }
 #footer1{
     background-color: lightblue;
