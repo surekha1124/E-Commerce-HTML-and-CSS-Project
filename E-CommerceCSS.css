@@ -195,22 +195,26 @@ figcaption input{
     opacity: 1;
     padding: 10px;
 }
-/*button{
+.shop-img button,.arrival-img button{
     border: 0px;
-    width: 30px;
-    height: 15px;
+    width: 50px;
+    height: 25px;
     border-radius: 20px;
-    font-size: x-small;
-    text-align: center;
-    align-content: center;
+    font-size: small;
+    /* text-align: center; */
+    /* align-content: center; */
     font-family: sans-serif;
     color: white;
-    position: relative;
-    top: 23px;
-    left: 8px;
+    position: absolute;
+}
+.shop-img button{
+    translate: 10px -330px;
+}
+.arrival-img button{
+    translate: 10px -215px;
 }
 #hot1{
-    background-color: lightcoral;
+    background-color: lightblue;
 }
 #hot2{
     background-color: lightpink;
@@ -220,7 +224,7 @@ figcaption input{
 }
 #hot4{
     background-color: lightseagreen;
-}*/
+}
 .pcbutton,#cartbutton{
     height: 20px;
     width: 20x; 
