@@ -78,6 +78,9 @@ h1{
     background-color: white;
     color: darkcyan;
 }
+.icondelete:hover{
+    background-color: rgba(243, 85, 85, 0.644);
+}
 .PHead{
     width:73%;
     float: left;
@@ -276,7 +279,7 @@ figcaption input{
 .section1 img{
     padding-left: 30px;
 }
-.section1:hover{
+.section1:hover, #inputbutton:hover{
     color: white;
     background-color: darkcyan;    
 }
@@ -432,6 +435,7 @@ button{
     color: white;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    border: 0;
 }
 #paraleft{
     float: left;
@@ -454,6 +458,9 @@ hr{
 }
 .footer2i,.footer2ii,.footer2iii{
     padding-right: 90px;
+}
+.footer2ii h4,.footer2iii h4{
+    text-indent: 50px;
 }
 span,h4{
     color: black;
