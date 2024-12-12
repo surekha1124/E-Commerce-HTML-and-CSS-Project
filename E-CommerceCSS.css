@@ -113,8 +113,8 @@ strong,.stock,.NColor{
 }
 .cat-img{
     width: 190px;
-    /* height: 270px; */
-    height: auto;
+    height: 270px;
+    /* height: auto; */
 }
 .arrival-img{
     width: 245px;
@@ -581,4 +581,78 @@ span,h4{
     line-height: 2.2;
     font-size: 13px;
     color: lightblack;
+}
+@media screen and (max-width:768px) {
+    div,hr{
+        margin-left: 0px;
+        margin-right: 0px;
+        display: block;
+    }
+    nav a{
+        display: flex;
+        flex-direction: column;
+        line-height: 20px;
+        padding-right: 40px;
+    }
+    nav .searchbox{
+        width: 110px;
+    }
+    .bflex1 h1{
+        font-size: 20px;        
+    }
+    .bflex1 h1{
+        font-size: 25px;        
+    }
+    .bflex1 h5, p{
+        font-size: 15px;        
+    }
+    .bflex2 img{
+        width: 500px;
+    }
+    .popularC{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+        height: auto;
+        margin-left: 100px;
+    }
+    .newarrivals{
+        height: auto;
+    }
+    .Release{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .newarrivals{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+    .bgimage{
+        display: grid;
+        grid-template-columns: auto;
+        margin-left: 100px;
+    }
+    #footer1{
+        display: grid;
+        grid-template-columns: 1;
+        justify-content: center;
+    }
+    .footer2i,.footer2ii,.footer2iii{
+        padding-right: 0px;
+    }
+    .footer2ii h4,.footer2iii h4 ,.footer2iv h4{
+        text-indent: 2px;
+    }
+    .footer2ii ,.footer2iii{
+        line-height: 2;
+    font-size: 13px;
+    }
+    .footer2ii a, .footer2iii a{
+        margin-left: -50px;
+        text-align: left;
+    }
+    .footer2iv{
+        margin-left: 10px;
+    }
 }
