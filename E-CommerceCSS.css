@@ -655,4 +655,26 @@ span,h4{
     .footer2iv{
         margin-left: 10px;
     }
+    .section2head,.section2{
+        width: auto;
+    }
+    .section1{
+        width: 150px;
+        text-indent: 0px;
+    }
+    .section1 img{
+        padding-left: 0px;
+    }
+    .compareimg{
+        width: 190px;
+        height: auto;
+    }
+    td{
+        font-size: small;
+    }
+    .inputlogin{
+        width:250px; 
+        height: 25px;
+        border-radius: 5px;
+    }    
 }
